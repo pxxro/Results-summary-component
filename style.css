@@ -1,0 +1,23 @@
+/*Organizing the entire site in boxes*/
+* {
+    box-sizing: border-box;
+}
+
+/*Font adjustment*/
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+/*Site adjustments*/
+body {
+    background-color: white;
+    font-family: Hanken Grotesk;
+}
+/*Cards division */
+.card {
+    float: left;
+    width: 50%;
+}
+
+
