@@ -14,10 +14,38 @@ body {
     background-color: white;
     font-family: Hanken Grotesk;
 }
-/*Cards division */
-.card {
+/*Cards division*/
+.leftcard, .rightcard {
     float: left;
     width: 50%;
 }
 
+/*Left card align*/
+.leftcard {
+    text-align: center;
+}
 
+
+/*Right card adjustments*/
+.lighter {
+    float: left;
+}
+
+.bold {
+    float: left;
+    font-weight: bold;
+}
+
+/*Scores division*/
+.category {
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+/*Button adjustment*/
+.continue {
+    text-decoration: none;
+    width: 35vw;
+    text-align: center;
+}
