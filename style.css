@@ -13,6 +13,7 @@
 body {
     background-color: white;
     font-family: Hanken Grotesk;
+    margin: 10vw 30vw;
 }
 /*Cards division*/
 .leftcard, .rightcard {
@@ -20,32 +21,66 @@ body {
     width: 50%;
 }
 
-/*Left card align*/
+/*Left card adjustments*/
 .leftcard {
     text-align: center;
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-radius: 25px;
+    color: white;
 }
 
+.result {
+    font-weight: 600;
+}
+
+/*Big score circle*/
+.score {
+    background-image: linear-gradient(to bottom,hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding-top: 21px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bignum {
+    font-size: 40px;
+    font-weight: bold;
+}
 
 /*Right card adjustments*/
 .lighter {
     float: left;
+    padding-left: 30px;
 }
 
 .bold {
     float: left;
     font-weight: bold;
+    padding-left: 50px;
+}
+
+.summary {
+    padding-left: 30px;
 }
 
 /*Scores division*/
 .category {
     float: left;
     width: 50%;
-    padding-left: 10px;
+    padding-left: 70px;
 }
 
 /*Button adjustment*/
 .continue {
     text-decoration: none;
-    width: 35vw;
+    width: 15vw;
+    height: 3vw;
     text-align: center;
+    border-radius: 50px;
+    display: block;
+    margin-left: 35px;
+    margin-right: auto;
 }
